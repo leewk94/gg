@@ -1,0 +1,182 @@
+body {
+	background: silver;
+	font: 14px 'trebuchet ms', arial, sans-serif;
+}
+
+/** Structure */
+#header {
+	height: 100px;
+	background: #000;
+	color: #fff;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom: 4px solid #f00;
+}
+
+#content {
+	background: #fff;
+	padding: 20px;
+}
+
+#footer {
+	background: #000;
+	color: #fff;
+	padding: 20px;
+	border-top: 4px solid #f00;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+
+
+/** Forms */
+form {
+	font: 100% verdana,arial,sans-serif;
+}
+
+form label { 
+	display: block;
+	float: left; 
+	width: 150px; 
+	padding: 0; 
+	margin: 9px 0 0;
+	text-align: right; 
+}
+
+form input, form select, form textarea  {
+	width: auto;
+	margin: 5px 0 0 10px;
+	border: 1px solid gray;
+	padding: 4px;
+}
+
+form input[type=submit]:hover {
+	cursor: pointer;
+	background: silver;
+}
+
+
+form br {clear: left;}
+
+.right{
+    text-align: right;
+}
+/* Menu */
+#header{
+    position:relative;
+}
+
+ #header ul {
+     list-style: none;
+     padding: 0px;
+     margin: 0px;
+ }
+ 
+ #header ul li {
+     display: block;
+     position: relative;
+     float: left;
+     border:1px solid #000
+ }
+ 
+ #header li ul {
+     display: none;
+ }
+ 
+ #header ul li a {
+     display: block;
+     background: #000;
+     padding: 5px 10px 5px 10px;
+     text-decoration: none;
+     white-space: nowrap;
+     color: #fff;
+     font-size: 15px;
+     font-weight: bolder;
+ }
+ 
+ #header ul li a:hover {
+     background: #f00;
+ }
+ 
+ #header li:hover ul {
+     display: block;
+     position: absolute;
+ }
+ 
+#header  li:hover li {
+    float: none;
+}
+
+ #header li:hover a {
+     background: #f00;
+ }
+ 
+ #header li:hover li a:hover {
+     background: #000;
+ }
+ 
+ #nav li ul li {
+     border-top: 0px;
+ }
+ #nav{
+     position: relative;
+     top: 25px;
+ }
+ #header .title{
+     text-align: center;
+     font-size:30px;
+     margin:0px;
+     position: relative;
+     top: 10px;
+     font-family:Comic Sans MS;
+     font-style: italic;
+ }
+
+ //title
+ h1{
+     font-family:Comic Sans MS;
+ }
+ //table
+ table.center{
+     text-align:center;
+     border:1px solid black;
+     border-collapse: collapse;
+ }
+ table.center th, table.center td{
+     padding:5px 15px;
+      border:1px solid black;
+      border-collapse: collapse;
+ }
+ 
+ table.left{
+     text-align:left;
+ }
+table.left td{
+     padding:5px 10px;
+ }
+ 
+ .border th{
+     border:1px solid black;
+ }
+ //message
+.message{
+   padding:10px 0px 0px  25px; 
+   display:block;
+   color:red;
+   font-weight:bold;
+ }
+ 
+ //Checklist
+ .checklist_tbl th {
+    text-align: left;
+}
+
+.checklist_tbl {
+    border: solid 1px;
+    border-collapse: collapse;
+}
+.checklist_tbl tr td {
+    border: solid 1px;
+    border-collapse: collapse;
+}
+
