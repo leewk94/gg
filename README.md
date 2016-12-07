@@ -1,6 +1,7 @@
 # config
 
 ---Introduction --- 
+
 This is a driving school management system. It is developed based on Model–view–controller (MVC) design pattern. Moreover, the main  targeted users for this system are staffs, administrators, students and instructors. 
 
 The objectives of this system : 
@@ -10,4 +11,5 @@ The objectives of this system :
 
 
 -- Installation-- 
+
 Refer to Installation manual.pdf
